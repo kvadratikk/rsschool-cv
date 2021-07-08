@@ -7,7 +7,8 @@
       if (/(?=\w{3,20})(?=[A-Za-z]+\d+[^!*]$)/g.test(password)) {
         return 'VALID'
       } else return 'INVALID'
-    }```
+    }
+    ```
  6. My rss-projects: https://rolling-scopes-school.github.io/kvadratikk-JSFE2021Q1/photo-filter/, https://rolling-scopes-school.github.io/kvadratikk-JSFE2021Q1/online-zoo/pages/landing/
  7. freecodecamp.org, Codewars, YouTube, learnjavasript, rss school
  8. B2
