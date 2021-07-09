@@ -103,11 +103,16 @@ body {
   border-bottom: 4px solid #333333;
   text-transform: uppercase;
 }
+h1,
 h2 {
   margin-top: 40px;
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
 }
 section:not(.aboutme) {
   display: flex;
@@ -121,10 +126,6 @@ section:not(.aboutme) {
   margin-left: 20px;
   padding-bottom: 40px;
   border-bottom: 2px solid #333333;
-}
-.name {
-  font-size: 36px;
-  text-align: center;
 }
 .description {
   font-size: 19px;
@@ -143,9 +144,6 @@ section:not(.aboutme) {
   margin-left: 0px;
 }
 .english h2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 0;
 }
 .code {
