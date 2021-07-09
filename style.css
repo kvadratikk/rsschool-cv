@@ -109,6 +109,11 @@ h2 {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+section:not(.aboutme) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .aboutme {
   display: flex;
   justify-content: space-between;
@@ -128,11 +133,6 @@ h2 {
   max-width: 500px;
   margin-top: 200px;
 }
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .skills p {
   font-size: 20px;
   text-transform: uppercase;
@@ -142,30 +142,13 @@ h2 {
   margin-top: 5px;
   margin-left: 0px;
 }
-.experience {
+.english h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.education {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.english {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.english p {
-  margin-top: 40px;
-  font-size: 20px;
-  text-transform: uppercase;
+  margin-bottom: 0;
 }
 .code {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   border-bottom: 2px solid #333333;
   padding-bottom: 40px;
 }
