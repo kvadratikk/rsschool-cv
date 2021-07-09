@@ -103,11 +103,21 @@ body {
   border-bottom: 4px solid #333333;
   text-transform: uppercase;
 }
+h1,
 h2 {
   margin-top: 40px;
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+section:not(.aboutme) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .aboutme {
   display: flex;
@@ -117,10 +127,6 @@ h2 {
   padding-bottom: 40px;
   border-bottom: 2px solid #333333;
 }
-.name {
-  font-size: 36px;
-  text-align: center;
-}
 .description {
   font-size: 19px;
   text-align: center;
@@ -128,54 +134,31 @@ h2 {
   max-width: 500px;
   margin-top: 200px;
 }
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .skills p {
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.skillslist {
+.skills-item,
+.experience-item,
+.contacts-item {
   margin-top: 5px;
   margin-left: 0px;
 }
-.experience {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.english h2 {
+  margin-bottom: 0;
 }
-.education {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.english {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.english p {
-  margin-top: 40px;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-.code {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.contacts {
   border-bottom: 2px solid #333333;
   padding-bottom: 40px;
 }
-.contacts {
+.footer-list {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 40px;
 }
-.contacts li {
+.footer-list li {
   list-style: none;
 }
