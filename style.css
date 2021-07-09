@@ -139,24 +139,26 @@ section:not(.aboutme) {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.skillslist {
+.skills-item,
+.experience-item,
+.contacts-item {
   margin-top: 5px;
   margin-left: 0px;
 }
 .english h2 {
   margin-bottom: 0;
 }
-.code {
+.contacts {
   border-bottom: 2px solid #333333;
   padding-bottom: 40px;
 }
-.contacts {
+.footer-list {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 40px;
 }
-.contacts li {
+.footer-list li {
   list-style: none;
 }
