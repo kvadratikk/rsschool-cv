@@ -1,1 +1,1 @@
-https://kvadratikk.github.io/rsschool-cv/cv
+https://kvadratikk.github.io/rsschool-cv/
